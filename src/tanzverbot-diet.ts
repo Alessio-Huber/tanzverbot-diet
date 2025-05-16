@@ -10,16 +10,16 @@ export type FoodItem = {
 };
 
 export const defaultDiet: FoodItem[] = [
-  { name: "Kellogg's Tresor", caloriesPerServing: 137, servings: 4 },
-  { name: "Weihenstephan Haltbare Milch", caloriesPerServing: 64, servings: 8 },
-  { name: "Mühle Frikadellen", caloriesPerServing: 271, servings: 4 },
-  { name: "Volvic Tee", caloriesPerServing: 40, servings: 12 },
+  { name: "Kellogg's Tresor",                caloriesPerServing: 137, servings: 4 },
+  { name: "Weihenstephan Haltbare Milch",    caloriesPerServing: 64,  servings: 8 },
+  { name: "Mühle Frikadellen",               caloriesPerServing: 271, servings: 4 },
+  { name: "Volvic Tee",                      caloriesPerServing: 40,  servings: 12 },
   { name: "Neuburger lockerer Sahnepudding", caloriesPerServing: 297, servings: 1 },
-  { name: "Lagnese Viennetta", caloriesPerServing: 125, servings: 6 },
-  { name: "Schöller 10ForTwo", caloriesPerServing: 482, servings: 2 },
-  { name: "Ristorante Pizza Salame", caloriesPerServing: 835, servings: 2 },
-  { name: "Schweppes Ginger Ale", caloriesPerServing: 37, servings: 25 },
-  { name: "Mini Babybel", caloriesPerServing: 59, servings: 20 },
+  { name: "Lagnese Viennetta",               caloriesPerServing: 125, servings: 6 },
+  { name: "Schöller 10ForTwo",               caloriesPerServing: 482, servings: 2 },
+  { name: "Ristorante Pizza Salame",         caloriesPerServing: 835, servings: 2 },
+  { name: "Schweppes Ginger Ale",            caloriesPerServing: 37,  servings: 25 },
+  { name: "Mini Babybel",                    caloriesPerServing: 59,  servings: 20 },
 ];
 
 export function calcDateOnDiet(
